@@ -1,6 +1,8 @@
 #include <iostream>
 
+#include "Creational/Factory.h"
+
 
 int main() {
-	std::cout << "Hello world!" << std::endl;
+	FactoryMain();
 }
