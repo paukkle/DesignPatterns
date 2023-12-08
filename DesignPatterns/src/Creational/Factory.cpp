@@ -47,4 +47,7 @@ void FactoryMain() {
     ClientCode(*creator2);
     std::cout << std::endl;
 
+    delete creator;
+    delete creator2;
+
 }
